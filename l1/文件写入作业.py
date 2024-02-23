@@ -20,8 +20,8 @@
 # 方法二
 data="[{'name':'王毛','age':8,'habby':'eat'},{'name':'李四','age':9,'habby':'play'}]"
 # file_name="data.txt"
-with open("data.txt","w") as f:
+with open("../data.txt", "w") as f:
     f.write(data)
-with open("data.txt","r") as f:
+with open("../data.txt", "r") as f:
     c=f.read()
     print(c)
