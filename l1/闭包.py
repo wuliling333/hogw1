@@ -1,5 +1,5 @@
-class cc():
-    def out_func():
+# class cc():
+    # def out_func():
         # out_n = 100
         # def inner_func():
         #     print(out_n)
@@ -7,7 +7,7 @@ class cc():
         # return inner_func
 
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
 
     # of1 = out_func()
     # print(out_func()())
