@@ -16,6 +16,8 @@ class Calc:
     @staticmethod
     def round(n1, n2):
         return 2*n1+2*n2
-print(f"矩形的面积{Calc.area(17,30)},周长为{Calc.round(17,30)}")
+a=Calc.area(17,30)
+b=Calc.round(17,30)
+print(f"矩形的面积{a},周长为{b}")
 
 
